@@ -9,6 +9,9 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@aws-amplify/core": "latest",
+    "@aws-amplify/storage": "latest",
+    "@expo/vector-icons": "latest",
     "aws-amplify": "^1.1.36",
     "aws-amplify-react-native": "^2.1.16",
     "buffer": "^5.2.1",
@@ -18,9 +21,9 @@
     "native-base": "^2.13.5",
     "react": "16.8.3",
     "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
-    "rn-fetch-blob": "^0.10.13",
-    "@aws-amplify/storage": "latest",
-    "@aws-amplify/core": "latest",
-    "@expo/vector-icons": "latest"
+    "rn-fetch-blob": "^0.10.13"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
   }
 }

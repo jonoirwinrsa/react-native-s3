@@ -41,7 +41,7 @@
   dependencies:
     "@aws-amplify/core" "^1.1.0"
 
-"@aws-amplify/core@^1.1.0":
+"@aws-amplify/core@^1.1.0", "@aws-amplify/core@latest":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@aws-amplify/core/-/core-1.1.0.tgz#52f23b4ef120749b5af8ff6a65471df60ac7fe33"
   integrity sha512-71xPm1vH/F436BHIuItkgJ0tqfr//aCFG6uLVCUaeBV4IgblfrxCo9ps9TpIqGjg0lQtwsCU33VLjjm29HHbOg==
@@ -76,7 +76,7 @@
     uuid "^3.2.1"
     zen-observable "^0.8.6"
 
-"@aws-amplify/storage@^1.1.0":
+"@aws-amplify/storage@^1.1.0", "@aws-amplify/storage@latest":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@aws-amplify/storage/-/storage-1.1.0.tgz#549ea8232f1e38d3d34477d4f581f1189536498e"
   integrity sha512-76MLh/8IcZtBw+TuTlL01fMRe5jkMbnT1AY1MHwRpjFEZMl0hv9vMZ8iomjsTmSvT4IzSK3EUrlqJl5q4MBVEw==
@@ -984,7 +984,7 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@expo/vector-icons@^10.0.2":
+"@expo/vector-icons@^10.0.2", "@expo/vector-icons@latest":
   version "10.0.5"
   resolved "https://registry.yarnpkg.com/@expo/vector-icons/-/vector-icons-10.0.5.tgz#2464fd262613ad11c9b2d5c4227e85c164fcccf4"
   integrity sha512-SWdAx2Qzxp5TgT3hZEoF/KHnaDW7ajIFztrDdaDZl3nPo7ExK0YiQ03V0z0xMd+uQwl3SZO3JMwPZ7YnuxcMEg==
@@ -4853,6 +4853,11 @@ preserve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
   integrity sha1-gV7R9uvGWSb4ZbMQwHE7yzMVzks=
+
+prettier@^1.18.2:
+  version "1.18.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.18.2.tgz#6823e7c5900017b4bd3acf46fe9ac4b4d7bda9ea"
+  integrity sha512-OeHeMc0JhFE9idD4ZdtNibzY0+TPHSpSSb9h8FqtP+YnoZZ1sl8Vc9b1sasjfymH3SonAF4QcA2+mzHPhMvIiw==
 
 pretty-format@24.0.0-alpha.6:
   version "24.0.0-alpha.6"
