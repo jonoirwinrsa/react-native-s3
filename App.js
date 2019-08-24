@@ -1,16 +1,12 @@
-import React from 'react';
-import { View } from 'react-native'
-import { withAuthenticator } from 'aws-amplify-react-native'
-import ImageUploadS3 from './components/ImageUploadS3'
+import { withAuthenticator } from "aws-amplify-react-native";
+import React from "react";
+import { SafeAreaView } from "react-native";
+import ImageFeed from "./components/ImageFeed";
 
-class App extends React.Component {
-render() {
-		return (
-			<View style={{flex: 1}}>
-				<ImageUploadS3 />
-			</View>
-		);
-	}
-}
+const App = () => (
+  <SafeAreaView style={{ flex: 1 }}>
+    <ImageFeed />
+  </SafeAreaView>
+);
 
-export default withAuthenticator(App, { includeGreetings: true })
+export default withAuthenticator(App, { includeGreetings: true });
