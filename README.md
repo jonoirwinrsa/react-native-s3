@@ -4,30 +4,31 @@
 
 ## Description
 
-This project integrates a React Native front-end with an AWS Amplify back-end that has user authentication (AWS Cognito) and the Storage API from AWS Amplify. This configuration allows us to perfomr CRUD operations to interact with Amazon S3 from our React native front end.
+This project integrates a React Native front-end with an AWS Amplify back-end that has user authentication (AWS Cognito) and the Storage API from AWS Amplify. This configuration allows us to perform CRUD operations to interact with Amazon S3 from our React native front end.
 
 ## App Overview
 
-* Users can sign up/in to the app.
+- Users can sign up/in to the app.
 
-* Users can upload pictures by pressing the add button.
+- Users can upload pictures by pressing the add button.
 
-* Users can delete pictures by pressing the trash button.
+- Users can delete pictures by pressing the trash button.
 
-* Users can update the feed by pressing the reload button. 
+- Users can update the feed by pressing the reload button.
 
 ## Prerequisites
 
-* [Expo CLI](https://docs.expo.io/versions/latest/workflow/expo-cli/)
-  * `npm install -g expo-cli`
-  
-* [AWS account](https://aws.amazon.com/amplify/)
+- [Expo CLI](https://docs.expo.io/versions/latest/workflow/expo-cli/)
 
-* [Node JS](https://nodejs.org/en/download/) with [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+  - `npm install -g expo-cli`
 
-* [AWS Amplify CLI](https://aws-amplify.github.io/)
-  * `npm install -g @aws-amplify/cli`
-  * `amplify configure` ([link](https://www.youtube.com/watch?v=fWbM5DLh25U) for a step by step video).
+- [AWS account](https://aws.amazon.com/amplify/)
+
+- [Node JS](https://nodejs.org/en/download/) with [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
+- [AWS Amplify CLI](https://aws-amplify.github.io/)
+  - `npm install -g @aws-amplify/cli`
+  - `amplify configure` ([link](https://www.youtube.com/watch?v=fWbM5DLh25U) for a step by step video).
 
 ## Configuring the project
 
@@ -49,7 +50,7 @@ yarn add aws-amplify@1.1.7 aws-amplify-react-native@2.0.7
 npm install aws-amplify aws-amplify-react-native
 ```
 
-3. Initialise the AWS Amplify project.
+3. Initialize the AWS Amplify project.
 
 ```
 amplify init
@@ -85,7 +86,7 @@ amplify push
 
 <img width="606" alt="Screenshot 2019-03-14 at 20 10 27" src="https://user-images.githubusercontent.com/26605247/54388490-b8711180-4695-11e9-8e41-9d27d5ba6d04.png">
 
-After few minutes of automated operations, the Amplify CLI will create an Amazon Cognito User Pool and Identity Pool to store users crendentials and an S3 bucket to allow for CRUD operations for images.
+After few minutes of automated operations, the Amplify CLI will create an Amazon Cognito User Pool and Identity Pool to store users credentials and an S3 bucket to allow for CRUD operations for images.
 
 ## Running the application
 
@@ -111,4 +112,8 @@ expo start --android
 
 ## Contribute
 
-* Feel free to contribute to this project.
+- Feel free to contribute to this project.
+
+## Source
+
+Based off a project by [Younes Henni](https://github.com/jtaylor1989/react-native-s3)

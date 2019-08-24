@@ -1,14 +1,11 @@
 {
   "expo": {
-    "name": "Plush Upload",
-    "description": "This project is really great.",
-    "slug": "plush-upload",
+    "name": "FlowerTime",
+    "description": "React Native app to show off Amazon Personalize",
+    "slug": "flower-time",
     "privacy": "public",
-    "sdkVersion": "30.0.0",
-    "platforms": [
-      "ios",
-      "android"
-    ],
+    "sdkVersion": "34.0.0",
+    "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,9 +16,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     }

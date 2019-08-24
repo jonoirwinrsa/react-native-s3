@@ -1,5 +1,5 @@
 {
-  "name": "empty-project-template",
+  "name": "flower-time",
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
@@ -9,13 +9,18 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "aws-amplify": "^1.1.7",
-    "aws-amplify-react-native": "^2.0.7",
+    "aws-amplify": "^1.1.36",
+    "aws-amplify-react-native": "^2.1.16",
     "buffer": "^5.2.1",
-    "expo": "^30.0.1",
-    "native-base": "2.8.0",
-    "react": "16.3.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
-    "rn-fetch-blob": "^0.10.13"
+    "expo": "^34.0.4",
+    "expo-image-picker": "~6.0.0",
+    "expo-permissions": "~6.0.0",
+    "native-base": "^2.13.5",
+    "react": "16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
+    "rn-fetch-blob": "^0.10.13",
+    "@aws-amplify/storage": "latest",
+    "@aws-amplify/core": "latest",
+    "@expo/vector-icons": "latest"
   }
 }
